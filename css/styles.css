@@ -11,6 +11,7 @@ body {
   margin: 0 auto;
   border-radius: 12px;
   background: url('/images/unnamed.png') center/cover;
+  position: relative;
 }
 
 .button1 {
@@ -20,4 +21,40 @@ body {
   font-size: 18px;
   background: rgba(0, 0, 0, 0.403);
   color: white;
+  position: absolute;
+  left: 500px;
+  top: 25px;
+}
+
+.button2 {
+  border-radius: 12px;
+  padding: 10px 15px;
+  background-color: brown;
+  top: 5px;
+  position: absolute;
+  right: 5px;
+  display: none;
+}
+
+.cont2 {
+  display: flex;
+  padding: 10px 0;
+  text-align: center;
+  flex-flow: column;
+  gap: 10px;
+  width: 400px;
+  background: rgba(0, 0, 0, 0.603);
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border-radius: 12px;
+  font-size: 20px;
+  color: white;
+  display: none;
+}
+
+img {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
 }
