@@ -1,0 +1,23 @@
+@import url('reset.css');
+
+body {
+  padding: 50px;
+  background: black;
+}
+
+.container {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 12px;
+  background: url('/images/unnamed.png') center/cover;
+}
+
+.button1 {
+  padding: 10px 20px;
+  height: 50px;
+  border-radius: 12px;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.403);
+  color: white;
+}
