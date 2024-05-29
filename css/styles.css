@@ -51,10 +51,13 @@ body {
   font-size: 20px;
   color: white;
   display: none;
+  padding-bottom: 100px;
 }
 
 img {
   position: absolute;
-  bottom: 5px;
-  right: 5px;
+  bottom: 30px;
+  right: 188px;
+  width: 30px;
+  height: 30px;
 }
